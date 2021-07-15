@@ -1,16 +1,45 @@
-# React-Elections
-Desafio Bootcamp React
+## react-elections
 
-# Iniciar Back-end
--Para inicializar o back-end basta abrir a pasta no terminal copiar o seguinte comando e pressionar Enter:
-"npm install"
-<br>
--Após as instalação dos pacotes, copie o seguinte comando e pronto, backend funcionando:
-"npm run server"
+<p>Trata-se de um app desenvolvido como trabalho desafio do bootcamp IGTI, esse projeto simula uma aplicação para contagem de votos por cidade com base em dados obtidos pela API.</p>
 
-# Iniciar Front-end
--Para inicializar o front-end basta fazer a instalação de pacotes com o comando:
-"npm install"
+### Imagem da aplicação:
+<img width="100%" src="https://marcos-dev-portfolio.netlify.app/static/media/ReactExpenses.02762746.png" alt="Página Resumo"></img>
+
+### Tecnologias utilizadas:
+
+<b>Linguagem</b>
+- Javascript(React).
+
 <br>
--Agora basta inicializar o projeto com o comando:
-"npm run dev"
+
+<b>Bibliotecas</b>
+- <a href="https://axios-http.com/docs/intro" >axios</a> (requisições a api);
+- <a href="https://github.com/uuidjs/uuid#readme" >uuid</a> (gerar IDs aleatórios);
+- <a href="https://github.com/typicode/json-server" >json-server</a> (fake API);
+- <a href="https://github.com/davidhu2000/react-spinners" >react-spinners</a> (spinner para carregamento);
+
+<br>
+
+<b>Framework</b>
+- <a href="https://tailwindcss.com/" >tailwindcss</a> (estilização);
+
+
+## Inicializar projeto
+
+<p>Para inicializar esse projeto em sua máquina será necessário usar os seguinte comandos(como o node instalado):</p>
+
+- Iniciar Back-end
+
+    Instalar depêndencias 
+    ```npm install```
+
+    Iniciar server localmente 
+    ```npm run server```
+
+- Iniciar Front-end
+
+    Instalar depêndencias 
+    ```npm install```
+
+    Inicializar aplicação localmente
+    ```npm run dev```
